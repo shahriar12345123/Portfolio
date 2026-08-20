@@ -22,7 +22,7 @@ export default function App() {
     <div className="min-h-screen bg-[#0b0f19] text-gray-100 font-sans selection:bg-blue-600 selection:text-white">
       
       {/* Fixed Navigation Header */}
-      <Navbar onOpenResume={() => setIsResumeModalOpen(true)} />
+      <Navbar />
 
       {/* Main Portfolio Sections */}
       <main>

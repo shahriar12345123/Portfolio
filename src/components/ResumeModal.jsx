@@ -16,7 +16,7 @@ export default function ResumeModal({ isOpen, onClose }) {
     // Create a plain downloadable HTML text document containing the full resume
     const resumeText = `===================================================================
 SHAHRIAR BIN RIFAT - FRONTEND & WEB DEVELOPER RESUME
-Email: shahriar.rifat.dev@gmail.com | Portfolio: shahriar-rifat.dev
+Email: shahriarbinrifat1@gmail.com | Portfolio: shahriar-rifat.dev
 GitHub: github.com/shahriar12345123 | LinkedIn: linkedin.com/in/shahriar-bin-baktarifat-0061421b5
 ===================================================================
 
@@ -110,7 +110,7 @@ EDUCATION:
             <div className="text-base font-bold text-blue-400 print:text-blue-700">Frontend & Web Developer</div>
             
             <div className="flex flex-wrap items-center gap-4 pt-2 text-xs text-gray-300 print:text-gray-700 font-mono">
-              <span className="flex items-center gap-1"><Mail className="w-3.5 h-3.5 text-blue-400" /> shahriar.rifat.dev@gmail.com</span>
+              <span className="flex items-center gap-1"><Mail className="w-3.5 h-3.5 text-blue-400" /> shahriarbinrifat1@gmail.com</span>
               <span className="flex items-center gap-1"><Globe className="w-3.5 h-3.5 text-emerald-400" /> shahriar-rifat.dev</span>
               <span className="flex items-center gap-1"><Github className="w-3.5 h-3.5 text-purple-400" /> github.com/shahriar-rifat</span>
             </div>

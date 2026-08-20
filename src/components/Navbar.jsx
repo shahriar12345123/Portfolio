@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, FileText, Send, Code, Sparkles, Moon, Sun } from 'lucide-react';
 
-export default function Navbar({ onOpenResume }) {
+export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
@@ -53,9 +53,11 @@ export default function Navbar({ onOpenResume }) {
         
         {/* Brand Logo */}
         <a href="#hero" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-purple-600 flex items-center justify-center text-white font-bold shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform">
-            SR
-          </div>
+          <img 
+            src="/images/profile.jpg" 
+            alt="Profile" 
+            className="w-10 h-10 rounded-full object-cover shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform" 
+          />
           <div className="flex flex-col">
             <span className="font-heading font-extrabold text-lg tracking-tight text-white group-hover:text-blue-400 transition-colors">
               Shahriar<span className="text-blue-500">.dev</span>
@@ -88,13 +90,6 @@ export default function Navbar({ onOpenResume }) {
 
         {/* CTA Buttons */}
         <div className="hidden sm:flex items-center gap-3">
-          <button
-            onClick={onOpenResume}
-            className="flex items-center gap-1.5 px-4 py-2 text-xs font-semibold text-gray-200 bg-gray-800/80 hover:bg-gray-700/80 border border-gray-700 rounded-lg transition-all hover:border-blue-500/50 hover:text-white shadow-sm"
-          >
-            <FileText className="w-3.5 h-3.5 text-blue-400" />
-            <span>Resume</span>
-          </button>
 
           <a
             href="#contact"
@@ -107,14 +102,6 @@ export default function Navbar({ onOpenResume }) {
 
         {/* Mobile Menu Button */}
         <div className="flex lg:hidden items-center gap-2">
-          <button
-            onClick={onOpenResume}
-            className="p-2 text-xs font-medium text-blue-400 bg-blue-950/40 border border-blue-800/50 rounded-lg sm:hidden"
-            title="Resume"
-          >
-            <FileText className="w-4 h-4" />
-          </button>
-          
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="p-2 rounded-lg text-gray-300 hover:text-white bg-gray-800/60 border border-gray-700"
@@ -140,16 +127,6 @@ export default function Navbar({ onOpenResume }) {
             </a>
           ))}
           <div className="pt-3 border-t border-white/10 flex flex-col gap-2">
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onOpenResume();
-              }}
-              className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold text-gray-200 bg-gray-800 border border-gray-700"
-            >
-              <FileText className="w-4 h-4 text-blue-400" />
-              <span>View & Download Resume</span>
-            </button>
             <a
               href="#contact"
               onClick={() => setMobileMenuOpen(false)}

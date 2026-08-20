@@ -9,7 +9,7 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const directEmail = 'shahriar.rifat.dev@gmail.com';
+  const directEmail = 'shahriarbinrifat1@gmail.com';
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(directEmail);
