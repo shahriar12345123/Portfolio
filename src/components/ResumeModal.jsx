@@ -17,7 +17,7 @@ export default function ResumeModal({ isOpen, onClose }) {
     const resumeText = `===================================================================
 SHAHRIAR BIN RIFAT - FRONTEND & WEB DEVELOPER RESUME
 Email: shahriar.rifat.dev@gmail.com | Portfolio: shahriar-rifat.dev
-GitHub: github.com/shahriar-rifat | LinkedIn: linkedin.com/in/shahriar-rifat
+GitHub: github.com/shahriar12345123 | LinkedIn: linkedin.com/in/shahriar-bin-baktarifat-0061421b5
 ===================================================================
 
 SUMMARY:
