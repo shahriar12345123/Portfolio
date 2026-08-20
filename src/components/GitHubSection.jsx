@@ -44,34 +44,34 @@ export default function GitHubSection() {
   // Real GitHub repositories from github.com/shahriar12345123
   const pinnedRepos = [
     {
-      name: 'PROJECT-TEMPORARY-frontend',
-      description: 'Full-stack project frontend built with JavaScript. Features React UI with modern design and Vercel deployment.',
+      name: 'saas-analytics-dashboard',
+      description: 'High-performance real-time analytics dashboard featuring multi-tenant user authentication, theme switcher, responsive chart metrics, user profile management, and live activity streams.',
       stars: 0,
       forks: 0,
       language: 'JavaScript',
       langColor: 'bg-yellow-400',
-      url: 'https://github.com/shahriar12345123/PROJECT-TEMPORARY-frontend',
-      homepage: 'https://project-temporary-frontend.vercel.app'
+      url: 'https://github.com/shahriar-rifat/saas-analytics-dashboard',
+      homepage: 'https://github.com/shahriar-rifat/saas-analytics-dashboard'
     },
     {
-      name: 'tasksphere-frontend',
-      description: 'TaskSphere — A modern task management application frontend. Built with React and JavaScript, deployed on Vercel.',
+      name: 'multi-provider-auth-system',
+      description: 'Secure, production-ready authentication engine supporting Email/Password login, Google Sign-In (SSO), Supabase Auth, Firebase Auth, protected route guards, and account settings.',
       stars: 0,
       forks: 0,
       language: 'JavaScript',
       langColor: 'bg-yellow-400',
-      url: 'https://github.com/shahriar12345123/tasksphere-frontend',
-      homepage: 'https://task-veroo.vercel.app'
+      url: 'https://github.com/shahriar-rifat/multi-provider-auth-system',
+      homepage: 'https://github.com/shahriar-rifat/multi-provider-auth-system'
     },
     {
-      name: 'QR-Forge',
-      description: 'QR-Forge — A modern tool for generating custom, high-resolution QR codes quickly and easily.',
+      name: 'react-stripe-ecommerce',
+      description: 'Feature-complete online shopping experience with catalog filtering, real-time cart state management, checkout flow, Stripe payment gateway, and Node.js backend order processing.',
       stars: 0,
       forks: 0,
-      language: 'HTML',
-      langColor: 'bg-orange-500',
-      url: 'https://github.com/shahriar12345123/QR-Forge',
-      homepage: 'https://github.com/shahriar12345123/QR-Forge'
+      language: 'JavaScript',
+      langColor: 'bg-yellow-400',
+      url: 'https://github.com/shahriar-rifat/react-stripe-ecommerce',
+      homepage: 'https://github.com/shahriar-rifat/react-stripe-ecommerce'
     }
   ];
 

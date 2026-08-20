@@ -4,8 +4,6 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import Skills from './components/Skills';
-import Projects from './components/Projects';
-import ProjectModal from './components/ProjectModal';
 import CaseStudies from './components/CaseStudies';
 import Experience from './components/Experience';
 import Education from './components/Education';
@@ -30,7 +28,6 @@ export default function App() {
         <About />
         <Services />
         <Skills />
-        <Projects onOpenModal={(project) => setActiveProjectModal(project)} />
         <CaseStudies />
         <Experience />
         <Education />
@@ -40,14 +37,6 @@ export default function App() {
 
       {/* Footer */}
       <Footer />
-
-      {/* Interactive Modals */}
-      {activeProjectModal && (
-        <ProjectModal
-          project={activeProjectModal}
-          onClose={() => setActiveProjectModal(null)}
-        />
-      )}
 
       <ResumeModal
         isOpen={isResumeModalOpen}
